@@ -1,0 +1,33 @@
+---
+title: "Using the `powersexpanded` package"
+author: "Victoria Michalowski"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the `powersexpanded` package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Note: this R package is meant to be for learning purposes as part of STAT 547 homework 09 only.
+
+This package includes an variety of functions that compute different powers in one package.
+
+```{r}
+library(powersexpanded)
+```
+
+Specifically, this package includes functions for computing squares, cubes, inverses, sqaure roots, and cube roots.
+
+```{r}
+square(1:10)
+cube(1:10)
+inverse(1:10)
+squarert(1:10)
+cubert(1:10)
+```
+
+
+
+
+
